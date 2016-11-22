@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Js-StoryTeller</title>
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <body>
+
+<h1>mythologie</h1>
+<div id="formulaire">
+
+    <form>
+
+      <label for="age">Age :</label>
+      <input type="text" name="age" id="champAge" onkeyup="onlyNumber(this, 'varAge');"></input>
+
+      <label for="nom">Nom :</label>
+      <input type="nom" name="nom" id="champNom" onkeyup="nospace(this,'varNom');"></input>
+
+      <label for="lieu">Lieu :</label>
+      <input type="lieu" name="lieu" id="champlieu" onkeyup="nospace(this, 'varLieu');"></input>
+
+      <label for="couleur">Couleur :</label>
+      <input type="couleur" name="couleur" id="champCouleur" onkeyup="nospace(this, 'varCouleur');"></input>
+
+      <label for="animal">Nom d'animal :</label>
+      <input type="animal" name="animal" id="champAnimal" onkeyup="nospace(this, 'varAnimal');"></input>
+
+    </form>
+    <div id="boule">
+        <div id="bille1">
+          <div id="bille1a"></div>
+        </div>
+
+        <div id="bille2">
+          <div id="bille2a"></div>
+        </div>
+        <div id="bille3"></div>
+          <div id="bille4"></div>
+            <div id="bille5"></div>
+              <div id="bille6"></div>
+
+    </div>
+
+
+<div id = "story" ><p> Lorsque le Ginnunungagap fût touché par le croisement du feu et du givre, le néant disparu pour laisser place à la vache adhumbla et le géant skirmir. Des gouttes de sueurs du géant nacquit Bor qui donna naissance à buri qui fît naître au monde Odin créateur de toute vie sur la terre. Cette création fût précédée en premier lieu  par la destruction :  à l'âge de <span id = "varAge"></span> , Odin , afin de s'affranchir de l'emprise de son pére malfaisant, tua celui-ci avec l'aide de ses fréres. Avec son corps ils composérent les montagnes, océans, roches, ciel, terre, etc . <span id = "varNom"></span> fût le premier fils d'Odin est le plus fort des créatures vivantes. Son marteau <span id = "varCouleur"></span> Miollnir, confectionné par les nains, et sa ceinture de ase lui conférant une force doublée font de lui la plus grande crainte des êtres de <span id = "varLieu"></span> : les géants. Il séme la terreur parmis eux, fracasser les crânes des géants du givre sur son char tiré par son fidéle compagnon <span id = "varAnimal"></span>, est son passe-temps favori.
+</p>
+</div>
+
+    <script src="JS/script.js"></script>
+
+  </body>
+
+</html>
